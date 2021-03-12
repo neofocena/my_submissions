@@ -1,0 +1,127 @@
+body{
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+h1 {
+	text-align: center;
+	color: 000000;
+	text-transform: capitalize;
+	font-weight: 20px;
+	font-size: 175%;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-size: 100%;
+	text-align: center;
+	clear: right;
+	padding: 20px 10px 0px 10px;
+}
+
+.row {
+	width: 100%
+}
+
+.title1 {
+		width: 120px;
+		float: right;
+		text-align: center;
+		color: 000000;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: #ffcccc;
+		padding: 3px 13px 3px 13px;
+		border: 1px solid black;
+		margin: 0px;
+	}
+
+.title2 {
+	width: 120px;
+	float: right;
+	text-align: center;
+	color: #ffffff;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: #b30000;
+	padding: 3px 13px 3px 13px;
+	border: 1px solid black;
+	margin: 0px;
+	}
+
+.title3 {
+	width: 120px;
+	float: right;
+	text-align: center;
+	color: #000000;
+	font-size: 125%;		
+	font-weight: bold;
+	background-color: #ffeb99;
+	padding: 3px 13px 3px 13px;
+	border: 1px solid black;
+	margin: 0px;
+	}
+.box{
+	position: relative;
+	box-sizing: border-box;
+	width: 30%;
+	background-color: #8c8c8c;
+	border: 1px solid black;
+	overflow: auto;
+	margin-left: 20px;
+	
+	}
+
+p {
+	color: #000000;
+	font-size: 100%;
+	 padding: 0px 10px 0px 10px;
+	clear: right;
+	overflow: auto;
+	text-align: center;
+	font-style: italic;
+}
+
+
+/*------------LARGE DEVICES MEDIA QUERY-------------------*/
+@media (min-width: 992px) and (max-width: 5000px){
+.no1, .no2, .no3 {width: 30%;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+}
+
+/*------------MEDIUM DEVICES MEDIA QUERY-------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+.no1, .no2 {width: 45%;
+height: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.no3 {width: 93%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;}
+} 
+
+/*------------SMALL DEVICES MEDIA QUERY-------------------*/
+@media (min-width: 100px) and (max-width: 767px) {
+.no1, .no2, .no3 {width: 95%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+}
