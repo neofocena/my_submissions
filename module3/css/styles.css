@@ -1,0 +1,79 @@
+body{
+  background-color: #ededed;
+}
+
+#barradinavigazione {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+.navbar-brand h1{
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: .75;
+  font-weight: bold;
+   font-family: "Lucida Console", "Courier New", monospace;
+   margin-left: 20px;
+   
+ }
+
+ .navbar-brand a{
+  text-decoration: none;
+ }
+#mylist {
+  margin-top: 0;
+  margin-bottom: 0px;
+
+    background-color: white;
+      border-bottom: : 1px solid black;
+}
+#mylist a {
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+
+}
+#mylist a:hover {
+  background: #c4c4c4;
+}
+
+.navbar-collapse {
+  clear: right;
+  clear: left;
+}
+.navbar-header button {
+  background-color: grey;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.menuinfo {
+  background-color: gray;
+  margin: 20px;
+}
+.menuinfo p {
+height: 700px;
+color: black;
+text-align: center;
+font-size: 1.2em;
+border-radius: 0px;
+border: 20px;
+margin-top: 10px;
+}
+
